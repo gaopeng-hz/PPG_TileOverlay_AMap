@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   # 基本信息
   spec.name         = "PPG_TileOverlay_AMap"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.1"
   spec.summary      = "高德地图添加瓦片地图"
 
   # 描述，要比上面的summary多一点内容！
@@ -31,7 +31,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "7.0"
 
   # 项目代码
-  spec.source       = { :git => "https://github.com/gaopeng-hz/PPG_TileOverlay_AMap111.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/gaopeng-hz/PPG_TileOverlay_AMap.git", :tag => "#{spec.version}" }
 
   # 源文件
   spec.source_files  = "TileOverlay/PPGMapView.{h,m}"
